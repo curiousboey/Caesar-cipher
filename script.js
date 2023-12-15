@@ -15,5 +15,7 @@ function encryptText() {
         }
     }
 
-    document.getElementById('result').innerText = 'Encrypted Text: ' + result;
+    var resultElement = document.getElementById('result');
+    resultElement.innerText = 'Encrypted Text: ' + result;
+    resultElement.style.color = '#333';
 }
